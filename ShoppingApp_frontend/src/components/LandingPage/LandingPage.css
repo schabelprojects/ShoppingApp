@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    position: fixed;
+    left: 29.5rem;
+    top: 10rem;
+    animation: titleAppear 2s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+@keyframes titleAppear {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.enter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    width: 10rem;
+    height: 2.5rem;
+    margin-left: 35rem;
+    margin-top: 17rem;
+    font-size: 25px;
+    padding-top: 0.5rem;
+}
+
+.fadeInDiv{
+    animation: fadeInZoom 2s forwards;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+@keyframes fadeInZoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.logo_img_ease{
+    height: 230px;
+    position: fixed;
+    top: -5.3rem;
+    animation: fadeInLogo 2s ease-in-out;
+}
+
+@keyframes fadeInLogo {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+    }
+
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo_img{
+    height: 230px;
+    position: fixed;
+    top: -5.3rem;
+    animation: fadeIn 2s ease-in-out;
+}
