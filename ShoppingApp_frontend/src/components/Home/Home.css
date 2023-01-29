@@ -1,69 +1,74 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-
-.logo_img{
-    height: 230px;
-    position: fixed;
-    top: -5.3rem;
-    animation: fadeIn 2s ease-in-out;
+.logo_img {
+  height: 230px;
+  position: absolute;
+  top: -5.3rem;
+  animation: fadeIn 2s ease-in-out;
 }
 
-.information-container{
-    display: flex;
-    width: 100%;
-    height: 30rem;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin-top: 3rem;
+.information-container {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 3rem;
 }
 
-.information{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.information h2{
-    margin-left: 5rem;
-    color: white;
-    font-size: 30px;
-    animation: info 1s forwards;
-    animation-delay: 2s;
-    opacity: 0;
+.information h2 {
+  margin-left: 5rem;
+  color: white;
+  font-size: 30px;
+  animation: info 1s forwards;
+  animation-delay: 1s;
+  opacity: 0;
 }
 
 @keyframes info {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to {
-        opacity: 1;
-    }
-
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.content{
-    display: flex;
-    width: 60%;
-    height: 22rem;
-    margin-top: 2.5rem;
-    margin-left: 2rem;
-    animation: imageAppear 2s ease-in;
+.content {
+  display: flex;
+  width: 60%;
+  height: 22rem;
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  animation: imageAppear 1s ease-in;
 }
 
 @keyframes imageAppear {
-    from {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+  }
+}
 
+.lnk-btn{
+    position: absolute;
+    left: 60rem;
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+    top: 20rem;
 }
