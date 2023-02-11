@@ -1,0 +1,20 @@
+[
+  {
+    "productname": "Iphone X",
+    "amount": 1,
+    "price": 449,
+    "image": "https://www.gizmochina.com/wp-content/uploads/2017/09/iPhone-X-Profile-Page-550x550.jpg"
+  },
+  {
+    "productname": "Iphone 12",
+    "amount": 1,
+    "price": 679,
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphone-12-blue-2020?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1635202745000"
+  },
+  {
+    "productname": "Iphone 13",
+    "amount": 1,
+    "price": 718,
+    "image": "https://specifications-pro.com/wp-content/uploads/2021/08/iPhone-13-2.jpg"
+  }
+]
